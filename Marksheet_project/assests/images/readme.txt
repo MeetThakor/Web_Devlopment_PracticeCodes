@@ -1,4 +1,4 @@
-index1 = 'adit logo'
-index2 = 'gtu logo'
-index 3 = 'charutar vidyamandal logo'
-index 4 = 'charutar university logo'
+index1.png = 'adit logo'
+index2.png = 'gtu logo'
+index3.png = 'charutar vidyamandal logo'
+index4.png = 'charutar university logo'
