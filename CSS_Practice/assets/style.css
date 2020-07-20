@@ -1,0 +1,25 @@
+.parallax {
+    background-image: url("../images/parallex.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.logo {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    text-transform: UPPERCASE;
+}
+#head {
+    color: blue;
+}
+.footer {
+    text-transform: capitalize;
+}
+.footer {
+    height: 500px;
+}
