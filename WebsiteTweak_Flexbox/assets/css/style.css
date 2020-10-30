@@ -1,0 +1,33 @@
+img.logo {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.flex-container a:hover:not(.active) {
+    background-color: #309bc5;
+}
+
+.active {
+    background-color: #ff7707;
+}
+
+.parallax {
+    background-image: url("../images/img_parallax.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
